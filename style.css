@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    color: white;
+}
+.div{
+    width: 428px;
+    height: 926px;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #3E2D8F 26.99%, rgba(157, 82, 172, 0.7) 95.21%);
+    /* background-image: url(https://s3-alpha-sig.figma.com/img/331e/1bd5/20ff80f00a061ff891eda20d542b0353?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JHVGib30LB3yHFMCQWWq1nSqS0I9WmZMX8JkTgm0Qmqbuc6mEY8okZUCfXO6mmi8ObKFPlYTR4~i70vGQoKXLVxOhZXE2rT5G9PcEGYknN88rlRY5vFlFdp13nvQgYm-pI2eM0aY4wvzIr1zlpdMqqKDZL~ElsVNoGrvvlF46A4MNQsjTsJJzeGSm5MeeZRhLKb3QTkllWn8XGwETuodvxjRNd2VzWOEUH8O89W2ZfO3sA8OmisLHePpI9M9b0Hmvz774vcAjLlQKjlP4wk~~XSS2ACVDR64MDTt57utekMBp~CEOYXU3JivUET~JMNy9DB8N1dlcUAR4a5KMXvFjw__); */
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background: linear-gradient(180deg, #A1C4FD 0%, #C2E9FB 50%, #FCE38A 100%); */
+
+}
+#input{
+    width: 358px;
+    height: 58px;
+    border-radius: 30px;
+    border: 2px solid #3E2D8F;
+    background-color: #D9D9D91A;
+    color: #F1EEFB;
+    margin-top: 15px;
+    margin-right: 35px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+#input::placeholder{
+    color: #F1EEFB;
+}
+.resultplace{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+#result{
+    font-weight: 500;
+    color: white;
+    font-size: 64px;
+    line-height: 29.71px;
+}
+#resultimg {
+    width: 250px;
+    height: 250px;
+    display: none;
+}
+#otherinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#countryname{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.71px;
+}
+#maxmin{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.71px;
+}
+.searchingspace {
+    width: 428px;
+    height: 246px;
+    background: linear-gradient(229.56deg, #3E2D8F 26.99%, rgba(157, 82, 172, 0.7) 95.21%);
+    border-radius: 50px;
+    border-top: 5px solid #8E78C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#submit{
+    width: 304px;
+    height: 72px;
+    background-color: #DDB130;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 29.71px;
+    color: #362A84;
+    border: none;
+    border-radius: 50px;
+}   
+.something{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.dayinfo {
+    margin-right: 45px;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+}
